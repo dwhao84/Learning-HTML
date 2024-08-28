@@ -77,60 +77,96 @@
       <a href="https://google.com" target="_blank">
         Go to site
       </a>
-      
+
       <!-- 新增寄送郵件地址 -->
-    <a href="mailto:plsgq@example.com"> Send me a E-mail. </a>
+      <a href="mailto:plsgq@example.com"> Send me a E-mail. </a>
 
-    <!-- 新增 Title & favicon(頁面標籤的icon) -->
-    <title> My page </title>
-    <link rel="icon" href="https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg">
+      <!-- 新增 Title & favicon(頁面標籤的icon) -->
+      <title> My page </title>
+      <link rel="icon" href="https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg">
 
-    <!-- 新增table(表格) 
+      <!-- 新增table(表格) 
     td = table data
     th = table Head
     -->
-    <table> 
-      <tr> 
-        <th> Name </th>
-        <th> Age </th>
-        <th> Class </th>
-      </tr>
+      <table>
+        <tr>
+          <th> Name </th>
+          <th> Age </th>
+          <th> Class </th>
+        </tr>
 
-      <tr>
-        <td> Tomi </td>
-        <td> 19 </td>
-        <td> Year 12</td>
-      </tr>
+        <tr>
+          <td> Tomi </td>
+          <td> 19 </td>
+          <td> Year 12</td>
+        </tr>
       </table>
 
-    <!-- 新增List -->
-    <ol>
-      <li> Name 1</li>
-      <li> Name 2</li>
-      <li> Name 3</li>
-    </ol>
-    
-    <!-- 新增List的第二種寫法 -->
-    <dl> 
-      <dt> Name 1 </dt>
-      <dd> * This is the first line.</dd>
-      <dt> Name 2 </dt>
-      <dd> * This is the second line.</dd>
-    </dl>
+      <!-- 新增List -->
+      <ol>
+        <li> Name 1</li>
+        <li> Name 2</li>
+        <li> Name 3</li>
+      </ol>
 
-    
-    <!--> Block and Inline Elements -->
-    <!-- 新增Block elements 使用<div> tag--> 
-    <div> 
-      <h1> First Div </h1>
-      <b> This is Bold </b>
-    </div>
+      <!-- 新增List的第二種寫法 -->
+      <dl>
+        <dt> Name 1 </dt>
+        <dd> * This is the first line.</dd>
+        <dt> Name 2 </dt>
+        <dd> * This is the second line.</dd>
+      </dl>
 
-    <div> 
-    <h1>Sec Div </h1>
-    <b> This is sec bold.</b>
-    </div>
 
+      <!--> Block and Inline Elements -->
+      <!-- 新增Block elements 使用<div> tag-->
+      <div style="color: white; background-color: green;">
+        <h1> First Div </h1>
+        <b> This is Bold </b>
+      </div>
+
+      <div>
+        <h1>Sec Div </h1>
+        <p> This is a text <b>bold One</b> </p>
+      </div>
+
+
+      <!-- iFrame 顯示在HTML裡面顯示WebPage-->
+      <iframe src="https://google.com" height="500" width="500" style="border: none; "></iframe>
+
+      <!-- Symbols 顯示在HTML裡面顯示Symbols -->
+      <p> This is euro sign &euro; </p> <!-- Euro -->
+      <p> This is Copyright sign &#169; </p> <!-- Copyright sign -->
+      <p> This is R sign &#174; </p> <!-- R -->
+      <p> This is trademark sign &#8482; </p> <!-- Trademark.-->
+
+
+      <!-- HTML Forms 顯示在HTML裡面顯示Forms，類似Swift裡面的textFields -->
+      <form>
+        <label for="username"> Name </label>
+        <br>
+        <input type="text" name="username" id="username">
+        <br>
+
+        <label> Number </label>
+        <br>
+        <input type="number">
+        </br>
+
+        <!-- Checkbox 顯示在HTML裡面顯示Checkbox -->
+        <label for="username">Tomi</label>
+        <br>
+        <input type="checkbox" name="username" id="username" value="tomi"> 
+        
+      </form>
+    <br>
+    <!-- Submit 顯示在HTML裡面顯示按鈕 -->
+    <input type="submit" value="Send">
+
+    <!-- Set up HTML locally -->
+    <!-- By using VSCode with add file name .html behind which's ok -->
     
 </body>
+
 </html>
