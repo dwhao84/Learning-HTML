@@ -1,0 +1,25 @@
+/*
+筆記:
+* 這是CSS裡面的結構， key: value 
+* 記得一定要加分號; 不然會以爲是一個屬性。
+
+1. 新增body的background color 
+2. 
+*/
+
+/*
+如果找到對應的html內容，可以用 #(對應的value)，去修改它的style。
+例如:
+#weclome {
+background-color: white;
+}
+*/
+
+body {
+    background-color: green;
+  
+  }
+  
+  h1 {
+    background-color: white;
+  }
