@@ -15,11 +15,15 @@ background-color: white;
 }
 */
 
-body {
+h1 {
     background-color: green;
   
   }
   
-  h1 {
+  #weclome {
     background-color: white;
+  }
+  
+  h1.heading {
+    color: blue;
   }
